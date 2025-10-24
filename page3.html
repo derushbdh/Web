@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+</head>
+<body>
+
+<a href="index.html">Обзор демографической ситуации</a><br>
+<a href="page3.html">Демографические показатели</a>
+
+<h2>Демографические показатели мира</h2>
+
+<details>
+    <summary><strong>График</strong></summary>
+    <p><strong>Значение по оси ОХ</strong></p>
+    <input type="checkbox"> Тип<br>
+    <input type="checkbox"> Страна<br>
+    <input type="checkbox"> Год<br>
+    
+    <p><strong>Значение по оси ОУ</strong></p>
+    <input type="checkbox"> Численность населения<br>
+    <input type="checkbox"> Плотность населения<br>
+    <input type="checkbox"> Прирост населения<br>
+    
+    <button>Отрисовать</button>
+    <p>[Здесь будет график]</p>
+</details>
+
+<details>
+    <summary><strong>Фильтр</strong></summary>
+    Название: <input type="text"><br>
+    Страна: <input type="text"><br>
+    Континент: <input type="text"><br>
+    Год: от <input type="text"> до <input type="text"><br>
+    Население: от <input type="text"> до <input type="text"><br>
+    <button>Найти</button>
+</details>
+
+<details>
+    <summary><strong>Сортировка</strong></summary>
+    Первый уровень: 
+    <select>
+        <option>нет</option>
+        <option>Страна</option>
+        <option>Население</option>
+        <option>Плотность</option>
+    </select>
+    по убыванию? <input type="checkbox"><br>
+    
+    Второй уровень: 
+    <select>
+        <option>нет</option>
+        <option>Страна</option>
+        <option>Население</option>
+        <option>Плотность</option>
+    </select>
+    по убыванию? <input type="checkbox"><br>
+    
+    Третий уровень: 
+    <select>
+        <option>нет</option>
+        <option>Страна</option>
+        <option>Население</option>
+        <option>Плотность</option>
+    </select>
+    по убыванию? <input type="checkbox"><br>
+    <button>Сортировать</button>
+</details>
+
+<table border="1" cellpadding="5" cellspacing="0" style="width: 100%; margin-top: 20px;">
+    <tr>
+        <th>Страна</th>
+        <th>Континент</th>
+        <th>Год</th>
+        <th>Население, млн</th>
+        <th>Плотность, чел/км²</th>
+        <th>Прирост, %</th>
+    </tr>
+    <tr>
+        <td>Китай</td>
+        <td>Азия</td>
+        <td>2023</td>
+        <td>1412</td>
+        <td>148</td>
+        <td>0.3</td>
+    </tr>
+    <tr>
+        <td>Индия</td>
+        <td>Азия</td>
+        <td>2023</td>
+        <td>1380</td>
+        <td>464</td>
+        <td>1.0</td>
+    </tr>
+    <tr>
+        <td>США</td>
+        <td>Северная Америка</td>
+        <td>2023</td>
+        <td>331</td>
+        <td>36</td>
+        <td>0.6</td>
+    </tr>
+    <tr>
+        <td>Япония</td>
+        <td>Азия</td>
+        <td>2023</td>
+        <td>125</td>
+        <td>347</td>
+        <td>-0.2</td>
+    </tr>
+    <tr>
+        <td>Германия</td>
+        <td>Европа</td>
+        <td>2023</td>
+        <td>83</td>
+        <td>240</td>
+        <td>0.1</td>
+    </tr>
+</table>
+
+</body>
+</html>
